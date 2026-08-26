@@ -1,0 +1,19 @@
+# Build results
+**/bin/
+**/obj/
+
+# Visual Studio
+**/.vs/
+*.user
+*.suo
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Docker
+docker-compose.override.yml
+
+# Archivos de secretos (NO subir credenciales reales)
+**/appsettings.Production.json
+.env

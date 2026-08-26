@@ -1,0 +1,17 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@ApiGateway = https://localhost:7100
+  
+GET {{ApiGateway}}/api/Libros
+Accept: application/json
+
+###
+POST {{ApiGateway}}/api/Libros
+Content-Type: application/json
+
+{
+  "titulo": "Rayo MQ2",
+  "Autor": "Mate MQ2",
+  "isbn": "1789-1234-1515",
+  "precio": 100.90,
+  "estado": true
+}
