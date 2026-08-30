@@ -25,7 +25,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: "http://+:8080"
-      ConnectionStrings__PacientesConnection: "Server=host.docker.internal,1433;Database=PacienteDB;User Id=sa;Password=ale7575tilus;TrustServerCertificate=True;Encrypt=False;"
+      ConnectionStrings__PacientesConnection: "Server=host.docker.internal,1433;Database=PacienteDB;User Id=usuario_paciente;Password=1234;TrustServerCertificate=True;Encrypt=False;"
       RabbitMQ__HostName: rabbitmq
       RabbitMQ__Port: 5672
       RabbitMQ__UserName: admin
@@ -45,7 +45,7 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: "http://+:8080"
-      ConnectionStrings__HistorialClinicoConnection: "Server=host.docker.internal,1433;Database=HistorialClinicoDB;User Id=sa;Password=ale7575tilus;TrustServerCertificate=True;Encrypt=False;"
+      ConnectionStrings__HistorialClinicoConnection: "Server=host.docker.internal,1433;Database=HistorialClinicoDB;User Id=usuario_HistorialClinico;Password=1234;TrustServerCertificate=True;Encrypt=False;"
       RabbitMQ__HostName: rabbitmq
       RabbitMQ__Port: 5672
       RabbitMQ__UserName: admin
