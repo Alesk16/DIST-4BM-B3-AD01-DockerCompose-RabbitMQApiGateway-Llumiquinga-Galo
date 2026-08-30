@@ -192,6 +192,6 @@ Para ejecutar correctamente el proyecto se recomienda seguir este orden:
 ---
 ## Autor
 
-**Estudiante:** Nombre Apellido  
-**Asignatura:** Programación Web I  
-**Paralelo:** Tercero A Nocturno
+**Estudiante:** Galo Alejandro Llumiquinga  
+**Asignatura:** Aplicaciones Distribuidas  I  
+**Paralelo:** Cuarto B Matutina 
