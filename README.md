@@ -167,6 +167,65 @@ e ingresar a la pestaña **Queues** → **paciente_creado**.
 
 ---
 
+## Microservicios
+
+### Microservicio Paciente - Puerto 8083 (Docker) / 7261 (Visual Studio)
+
+```text
+http://localhost:8083
+```
+
+Endpoint de ejemplo:
+
+```text
+http://localhost:8083/api/Pacientes
+```
+
+Abrir en el navegador:
+
+```text
+http://localhost:8083/swagger
+```
+
+Desde Swagger se pueden probar los endpoints del microservicio Paciente.
+
+### Microservicio HistorialClinico - Puerto 8084 (Docker) / 7271 (Visual Studio)
+
+```text
+http://localhost:8084
+```
+
+Endpoint de ejemplo:
+
+```text
+http://localhost:8084/api/HistorialClinicos
+```
+
+Abrir en el navegador:
+
+```text
+http://localhost:8084/swagger
+```
+
+Desde Swagger se pueden probar los endpoints del microservicio HistorialClinico.
+
+### Api Gateway - Puerto 8085
+
+```text
+http://localhost:8085
+```
+
+Endpoints de ejemplo (enrutados hacia los microservicios):
+
+```text
+http://localhost:8085/api/Pacientes
+http://localhost:8085/api/HistorialClinicos
+```
+
+El Api Gateway no expone Swagger propio, solo enruta las peticiones hacia los microservicios correspondientes.
+
+---
+
 ## Orden de ejecución
 
 Para ejecutar correctamente el proyecto se recomienda seguir este orden:
@@ -190,8 +249,9 @@ Para ejecutar correctamente el proyecto se recomienda seguir este orden:
 ```
 
 ---
+
 ## Autor
 
-**Estudiante:** Galo Alejandro Llumiquinga  
-**Asignatura:** Aplicaciones Distribuidas   
-**Paralelo:** Cuarto B Matutina 
+**Estudiante:** Galo Alejandro Llumiquinga
+**Asignatura:** Aplicaciones Distribuidas
+**Paralelo:** Cuarto B Matutina
