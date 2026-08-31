@@ -250,8 +250,10 @@ Para ejecutar correctamente el proyecto se recomienda seguir este orden:
 
 ---
 
-## Autor
+##Autor
 
 **Estudiante:** Galo Alejandro Llumiquinga
-**Asignatura:** Aplicaciones Distribuidas
+
+**Asignatura:** Aplicaciones Distribuidas 
+
 **Paralelo:** Cuarto B Matutina
